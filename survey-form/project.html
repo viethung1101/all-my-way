@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<head>
+</head>
+<body>
+    <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <div>
+       <form id="survey-form">
+           <label for="name" id="name-label">Name</label>
+           <input type="text" id="name" placeholder="name">
+           <br>
+           <label for="email" id="email-label">email</label>
+           <input type="email" id="email" placeholder="Enter your Email"> 
+           <br>
+           <label for="number" id="number-label">Age</label>
+           <input type="text" id="number" min="1" max="100" placeholder="Age">
+           <br>
+           <label for="dropdown">Which option best describes your current role?</label>
+           <select id="dropdown">
+               <option value="student">Student</option>
+               <option value="job">Full time jobs</option>
+               <option value="learner">Full time learner</option>
+               <option value="not-say">Prefer not to say</option>
+               <option value="Other">Other</option>
+
+           </select>
+           
+           <label for="recommend" id>Would you recommend freeCodeCamp to a friend?</label>
+           <input type="radio" id="Definitely" name="recommend" value="Def">
+           <label for="Definitely">Definitely</label><br>
+           <input type="radio" id="Maybe" name="recommend" value="May">
+           <label for="Maybe">Maybe</label><br>
+           <input type="radio" id="Not-sure" name="recommend" value="not">
+           <label for="Not-sure">Not survey-form</label><br>
+
+
+           <label for="dropdown1">What is your favorite feature of freeCodeCamp?</label>
+           <select id="dropdown1">
+               <option value="Challenges">Challenges</option>
+               <option value="Projects">Projects</option>
+               <option value="Community">Community</option>
+               <option value="Open-source">Open source</option>
+           </select><br>
+           
+           <input type="checkbox" id="Front-end-Projects" name="checklist" value="frontend">
+           <label for="Front-end-Projects"> Front-end Projects</label><br>
+           <input type="checkbox" id="Back-end-Projects" name="checklist" value="backend">
+           <label for="Back-end-Projects">Back-end Projects</label><br>
+
+
+       </form>
+    </div>
+</body>
